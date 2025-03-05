@@ -1,8 +1,11 @@
 # apso-apuntes-practica2
 
-## 📂 1. Creación y Gestión de Directorios y Archivos
+## 1. Creación y Gestión de Directorios y Archivos
 
 🔹 **Crear directorios** usando `mkdir` con la opción `-p` para estructuras anidadas:
+
+![image](https://github.com/user-attachments/assets/862ddd80-7b8c-466d-b4dd-8bfa235c84bd)
+
 ```sh
 mkdir -p prac2/prac21/tmp1 prac2/prac22 prac2/prac23/tmp2
 ```
@@ -22,7 +25,7 @@ mv tmp1/f2.txt ../prac23/tmp2/f23.txt  # Mover y renombrar en un paso
 
 ---
 
-## 🔐 2. Gestión de Permisos
+## 2. Gestión de Permisos
 
 🔹 **Modificar permisos con `chmod`**
 
@@ -38,7 +41,7 @@ chmod 700 ../Practica2    # Propietario: rwx, sin permisos para otros
 
 ---
 
-## 🔍 3. Búsqueda de Archivos y Directorios
+## 3. Búsqueda de Archivos y Directorios
 
 🔹 **Buscar directorios con `find`**
 ```sh
@@ -52,7 +55,7 @@ find /etc -type f -mtime -100
 
 ---
 
-## 📑 4. Uso de `grep`, `wc`, `sort`, `head` y `tail`
+## 4. Uso de `grep`, `wc`, `sort`, `head` y `tail`
 
 🔹 **Buscar contenido en archivos con `grep`**
 ```sh
@@ -80,7 +83,7 @@ tail -3 passwd   # Últimas 3 líneas
 
 ---
 
-## 📅 5. Fecha, Hora y Calendario
+## 5. Fecha, Hora y Calendario
 
 🔹 **Mostrar calendario de un mes y año específicos:**
 ```sh
@@ -96,7 +99,7 @@ date +"Bienvenido. Son las %H horas y %M minutos del %A %e de %B. Ha sido un pla
 
 ---
 
-## 🔗 6. Enlaces (Hard Links y Soft Links)
+## 6. Enlaces (Hard Links y Soft Links)
 
 🔹 **Crear un enlace duro:**
 ```sh
@@ -116,7 +119,7 @@ file solucionprac1 temporal
 
 ---
 
-## ⚙️ 7. Gestión de Procesos y Usuarios
+##  7. Gestión de Procesos y Usuarios
 
 🔹 **Ver usuarios conectados:**
 ```sh
@@ -155,7 +158,7 @@ mesg y  # Permitir mensajes
 
 ---
 
-## 📌 8. Otros Comandos y Consejos
+##  8. Otros Comandos y Consejos
 
 🔹 **Visualizar archivos:**
 ```sh
