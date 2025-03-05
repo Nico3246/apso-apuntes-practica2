@@ -158,7 +158,7 @@ mesg y  # Permitir mensajes
 
 ---
 
-##  8. Otros Comandos y Consejos
+##  8. Otros Comandos
 
 🔹 **Visualizar archivos:**
 ```sh
